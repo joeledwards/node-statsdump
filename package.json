@@ -1,0 +1,29 @@
+{
+  "name": "statsdump",
+  "version": "1.0.0",
+  "description": "Run a StatsD server which dumps received metrics to the console",
+  "main": "bin/statsdump.js",
+  "bin": {
+    "statsdump": "bin/statsdump.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:joeledwards/node-statsdump"
+  },
+  "keywords": [
+    "statsd",
+    "dump",
+    "log",
+    "metrics",
+    "debug"
+  ],
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@buzuli/app": "^1.2.1",
+    "yargs": "^17.1.0"
+  }
+}
